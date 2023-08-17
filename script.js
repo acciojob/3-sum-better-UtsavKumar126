@@ -3,9 +3,9 @@ function threeSum(arr, target) {
 	let sum=0;
 	let dif=0;
 	arr.sort();
-	for(i=0;i<arr.length;i++){
-		j=i+1;
-		k=arr.length-1;
+	for(let i=0;i<arr.length;i++){
+		let j=i+1;
+		let k=arr.length-1;
 
 		while(j<k){
 			if(arr[i]+arr[j]+arr[k]<target){
